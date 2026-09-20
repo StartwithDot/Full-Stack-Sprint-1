@@ -1,36 +1,50 @@
 # Full Stack Sprint 1 — Poll Maker
 
-Project-based Full Stack learning programme, Sprint 1.
+This repository is the project-based learning workspace for Full Stack Sprint 1.
 
-## Purpose
+Sprint 1 uses one intentionally small product, **Poll Maker**, to teach the foundations of web development and the first complete full-stack flow.
 
-Sprint 1 is designed for a mixed-background cohort, including learners with little or no prior IT experience.
+The curriculum is designed for a mixed-background cohort, including learners with no formal IT background.
 
-The project is a deliberately small **Poll Maker**. The purpose is not to teach a list of technologies. The project is the context in which learners discover why new concepts are needed.
+## Learning principle
 
-The central learning pattern is:
+We do not teach technologies as an isolated list.
 
-> Need → problem → learn → practise → apply → checkpoint → next need
+We use:
 
-## Sprint 1 focus
+**Need → Problem → Learn → Practise → Apply → Checkpoint → Next need**
 
-Students should finish Sprint 1 able to explain and build one complete browser-to-server-to-database flow.
+Every major concept should appear because the project has reached a limitation or a new requirement.
 
-The detailed learning sequence, phases, milestones, tracks, tasks, and repository structure are being developed in the curriculum blueprint.
-
-## Initial structure
+## Repository structure
 
 ```
 .
 ├── README.md
 ├── CONTRIBUTING.md
-├── admin/
-├── delivery/
-├── docs/
-├── platform/
-└── students/
+├── admin/                    administrative pointers
+├── delivery/                 shared outputs and handover material
+├── docs/                     curriculum and supporting guides
+├── platform/                 shared/reference product build
+└── students/                 individual learner practice
+    ├── FS1/
+    │   ├── week1/
+    │   ├── week2/
+    │   └── ...
+    └── FS30/
+        └── week13/
 ```
+
+The repository follows the structural pattern of the Data Sprint curriculum, but the contents are being redesigned for Full Stack learning rather than copied mechanically.
+
+## Project
+
+See [docs/PROJECT.md](docs/PROJECT.md).
+
+## Curriculum
+
+Start with [docs/00-START-HERE.md](docs/00-START-HERE.md), then read [docs/curriculum-blueprint.md](docs/curriculum-blueprint.md).
 
 ## Status
 
-This repository is currently in curriculum-design/bootstrap stage. The final student task structure and implementation will be added only after the learning architecture is agreed.
+The repository structure is bootstrapped. The detailed Full Stack task sequence, exact tracks, and final weekly content remain subject to curriculum review.
